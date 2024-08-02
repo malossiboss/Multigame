@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libs/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+/home/iliya/workspace/Multigame/libs/glad.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+glad/glad.h
+/home/iliya/workspace/Multigame/libs/glad/glad.h
+windows.h
+-
+winapifamily.h
+-
+dlfcn.h
+-
+
+/home/iliya/workspace/Multigame/libs/glad/glad.h
+windows.h
+-
+KHR/khrplatform.h
+-
+

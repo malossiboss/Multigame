@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Multigame",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Glad::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Glad-Debug-1e3cdef5287fdf1939d8.json",
+					"name" : "Glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ImGui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ImGui-Debug-34c5b841ec59c5181e6e.json",
+					"name" : "ImGui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Multigame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Multigame-Debug-d6a14a9dc15b2cd2f0ff.json",
+					"name" : "Multigame",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/iliya/workspace/Multigame/build",
+		"source" : "/home/iliya/workspace/Multigame"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

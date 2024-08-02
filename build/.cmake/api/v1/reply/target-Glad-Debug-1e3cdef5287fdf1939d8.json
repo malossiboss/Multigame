@@ -1,0 +1,217 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libGlad.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/debug"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/anim_player"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/app_select"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/audio_player"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/applications"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/applications/kids_fantasy"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/applications/roulette"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/button"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/font"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/interpolator"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/panel"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/particle_system"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/renderer"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/texture"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/iliya/workspace/Multigame/main_app/timer"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/iliya/workspace/Multigame/libs"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/iliya/workspace/Multigame/libs/freetype"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/iliya/workspace/Multigame/libs/glad"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/iliya/workspace/Multigame/libs/glm"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/iliya/workspace/Multigame/libs/imgui"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/iliya/workspace/Multigame/libs/irrKlang/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/iliya/workspace/Multigame/libs/KHR"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/iliya/workspace/Multigame/libs/rapidjson"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/iliya/workspace/Multigame/libs/shader"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/iliya/workspace/Multigame/libs/spdlog"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/iliya/workspace/Multigame/libs/stb_image"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"id" : "Glad::@6890427a1f51a3e7e1df",
+	"name" : "Glad",
+	"nameOnDisk" : "libGlad.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "libs/glad/glad.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libs/glad.c",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Multigame.dir/debug/Logger.cpp.o"
+  "CMakeFiles/Multigame.dir/debug/Utils.cpp.o"
+  "CMakeFiles/Multigame.dir/main.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/MainApp.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/anim_player/AnimPlayer.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/app_select/AppSelect.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/IApp.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/kids_fantasy/MainGame.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/kids_fantasy/lines/LinesMgr.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/kids_fantasy/math_logic/MathLogic.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/kids_fantasy/reels_area/ReelsArea.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/kids_fantasy/reels_area/reels/Reel.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/kids_fantasy/status_line/StatusLine.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/particle_builder/MainGame.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/roulette/MainGame.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/roulette/math_logic/RouletteMathLogic.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/roulette/status_line/StatusLine.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/roulette/table_area/TableArea.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/roulette/wheel_area/Ball.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/roulette/wheel_area/Wheel.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/applications/roulette/wheel_area/WheelArea.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/audio_player/AudioPlayer.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/button/Button.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/font/Font.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/interpolator/Interpolator.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/panel/Panel.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/particle_system/ParticleSystem.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/renderer/Renderer.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/texture/Texture.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/texture/Texture2D.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/texture/TextureDDS.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/timer/ITimer.cpp.o"
+  "CMakeFiles/Multigame.dir/main_app/timer/TimerMgr.cpp.o"
+  "Multigame"
+  "Multigame.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Multigame.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

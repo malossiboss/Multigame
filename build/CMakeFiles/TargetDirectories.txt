@@ -1,0 +1,5 @@
+/home/iliya/workspace/Multigame/build/CMakeFiles/rebuild_cache.dir
+/home/iliya/workspace/Multigame/build/CMakeFiles/edit_cache.dir
+/home/iliya/workspace/Multigame/build/CMakeFiles/Glad.dir
+/home/iliya/workspace/Multigame/build/CMakeFiles/ImGui.dir
+/home/iliya/workspace/Multigame/build/CMakeFiles/Multigame.dir
